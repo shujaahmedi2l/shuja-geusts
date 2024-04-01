@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "shuja-geust"
+  description: 
+  annotations:
+    github.com/project-slug: shujaahmedi2l/shuja-geust
+    argocd/app-name: shuja-geust
+  links:
+    - url: https://shuja-geust.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
